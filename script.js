@@ -7,3 +7,7 @@ window.addEventListener("DOMContentLoaded", function() {
     })
 }, false);
 
+let copyright = document.querySelector(".updateCopyright");
+
+let currentYear = new Date().getFullYear()
+copyright.textContent = currentYear;
